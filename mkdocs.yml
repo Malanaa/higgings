@@ -8,6 +8,7 @@ site_dir: site
 use_directory_urls: true
 theme:
   name: material
+  custom_dir: docs-theme
   palette:
     scheme: slate
     primary: teal
@@ -38,6 +39,7 @@ nav:
       - API protocol: PROTOCOL.md
       - Decisions: DECISIONS.md
   - Research:
+      - Paper: publication.md
       - Scientific method: SCIENTIFIC_METHOD.md
       - Datasets: DATASETS.md
       - Leakage audit: DATA_LEAKAGE_AUDIT.md

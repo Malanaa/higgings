@@ -4,6 +4,7 @@ on:
     branches: [master]
     paths:
       - 'docs/**'
+      - 'docs-theme/**'
       - 'paper/main.pdf'
       - 'paper/README.md'
       - 'README.md'
@@ -16,6 +17,7 @@ on:
   pull_request:
     paths:
       - 'docs/**'
+      - 'docs-theme/**'
       - 'mkdocs.yml'
       - 'scripts/prepare_docs.py'
       - 'requirements-docs.txt'

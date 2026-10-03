@@ -1,6 +1,6 @@
 # NeuroStreamLab
 
-[Documentation website](https://malanaa.github.io/higgings/) · [Paper PDF](https://malanaa.github.io/higgings/paper.pdf)
+[Documentation website](https://malanaa.github.io/higgings/) · [Paper and abstract](https://malanaa.github.io/higgings/publication/) · [Paper PDF](https://malanaa.github.io/higgings/paper.pdf)
 
 **A local, hardware-free research console for EEG replay and decoder robustness.**
 

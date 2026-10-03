@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block extrahead %}
+{{ super() }}
+{% if page and page.file.src_uri == 'publication.md' %}
+<meta name="citation_title" content="NeuroStreamLab: Hardware-Free Real-Time BCI Development and EEG Replay Robustness">
+<meta name="citation_author" content="Imam, Syed Abdullah">
+<meta name="citation_author_institution" content="University of North Texas">
+<meta name="citation_publication_date" content="2026/10/02">
+<meta name="citation_pdf_url" content="https://malanaa.github.io/higgings/paper.pdf">
+{% endif %}
+{% endblock %}

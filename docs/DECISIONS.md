@@ -28,3 +28,7 @@ Trace rendering now uses source timestamps rather than sample-array position. Ti
 ## GitHub Pages documentation
 
 Publish existing Markdown with MkDocs Material on GitHub Pages. Staging copies the existing guides, screenshots and committed paper PDF without duplicating source documents. Pull requests build in strict mode. Master updates deploy through the github-pages environment. The static site documents the locally run console and does not run its backend.
+
+## Preprint preparation and discoverability
+
+Add a dedicated paper landing page with citation metadata and an explicit preprint status. Disclose Codex assistance in the manuscript and landing page. engrXiv currently prohibits verbatim AI-generated paragraphs, so this AI-drafted version should not be submitted there. External submission requires the author's scientific review and account access. No acceptance, DOI, or Scholar indexing is assumed.
