@@ -22,3 +22,5 @@ paper/arxiv_bundle/
 results/smoke/
 frontend/*.tsbuildinfo
 tmp/
+
+site/

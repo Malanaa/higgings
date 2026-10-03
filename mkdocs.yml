@@ -1,0 +1,51 @@
+site_name: NeuroStreamLab
+site_description: Hardware-free EEG replay and decoder robustness research
+site_url: https://malanaa.github.io/higgings/
+repo_url: https://github.com/Malanaa/higgings
+repo_name: Malanaa/higgings
+docs_dir: tmp/docs-site
+site_dir: site
+use_directory_urls: true
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: cyan
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - tables
+  - fenced_code
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
+  - Overview: index.md
+  - Getting started:
+      - Reproducibility: REPRODUCIBILITY.md
+      - Hardware adapters: REAL_HARDWARE.md
+      - Validation: VALIDATION.md
+  - Engineering:
+      - Architecture: ARCHITECTURE.md
+      - API protocol: PROTOCOL.md
+      - Decisions: DECISIONS.md
+  - Research:
+      - Scientific method: SCIENTIFIC_METHOD.md
+      - Datasets: DATASETS.md
+      - Leakage audit: DATA_LEAKAGE_AUDIT.md
+      - Limitations: KNOWN_LIMITATIONS.md
+      - Literature: LITERATURE.md
+      - Paper and reproduction: PAPER.md
+      - Paper PDF: paper.pdf
+  - Project:
+      - Contributing: CONTRIBUTING.md
+      - Release checklist: RELEASE_CHECKLIST.md
+      - Third-party notices: THIRD_PARTY_NOTICES.md

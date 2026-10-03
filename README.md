@@ -1,5 +1,7 @@
 # NeuroStreamLab
 
+[Documentation website](https://malanaa.github.io/higgings/) · [Paper PDF](https://malanaa.github.io/higgings/paper.pdf)
+
 **A local, hardware-free research console for EEG replay and decoder robustness.**
 
 Develop the BCI software pipeline before buying EEG hardware: acquire timestamped chunks, process signals, replay held-out human EEG, inject reproducible shifts, decode trials, and explore decisions in an interactive browser application.

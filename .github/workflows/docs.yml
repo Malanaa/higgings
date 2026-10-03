@@ -1,0 +1,61 @@
+name: Documentation Pages
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'docs/**'
+      - 'paper/main.pdf'
+      - 'paper/README.md'
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+      - 'THIRD_PARTY_NOTICES.md'
+      - 'mkdocs.yml'
+      - 'requirements-docs.txt'
+      - 'scripts/prepare_docs.py'
+      - '.github/workflows/docs.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'scripts/prepare_docs.py'
+      - 'requirements-docs.txt'
+      - '.github/workflows/docs.yml'
+      - 'README.md'
+      - 'paper/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: documentation-pages-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-docs.txt
+      - run: pip install -r requirements-docs.txt
+      - run: python scripts/prepare_docs.py
+      - run: mkdocs build --strict
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          path: site
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

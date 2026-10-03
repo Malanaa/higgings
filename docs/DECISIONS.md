@@ -24,3 +24,7 @@ The final reproduction enforces native scientific thread pools at one thread and
 Linux uv sources explicitly select official CPU PyTorch and torchaudio wheels. The hardware permission gate also covers network/streaming board IDs, not just positive physical board IDs. These packaging and access checks do not change scientific evaluation design. Git commits use the supplied author name with an explicitly empty email, so no contact information is invented.
 
 Trace rendering now uses source timestamps rather than sample-array position. Timing gaps are drawn as gaps, seeks reset history, and state-only changes do not append duplicate samples. Canvas FPS is measured locally, with the target cadence separately labeled. Nonfinite config and metadata values are rejected before starting a stream.
+
+## GitHub Pages documentation
+
+Publish existing Markdown with MkDocs Material on GitHub Pages. Staging copies the existing guides, screenshots and committed paper PDF without duplicating source documents. Pull requests build in strict mode. Master updates deploy through the github-pages environment. The static site documents the locally run console and does not run its backend.
