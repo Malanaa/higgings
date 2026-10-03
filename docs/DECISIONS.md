@@ -20,3 +20,7 @@ PyPI and npm both returned HTTP 404 for neurostreamlab on 2026-10-02. Searches f
 The initial manuscript compiled after adding xcolor, and PDF checks use a pypdf fallback when Poppler is absent. PyMuPDF provides local rendered-page QA. UI pause state now updates immediately and synthetic mode shows no fabricated probability output. The scalp electrode panel uses standard MNE label coordinates with no individualized-location or interpolation claims.
 
 The final reproduction enforces native scientific thread pools at one thread and records threadpool metadata. The first development run used one PyTorch thread but did not explicitly constrain native classical-library pools, so its timings are superseded by the final reproduction. This correction does not change subjects, splits, signal conditions or algorithm choices.
+
+Linux uv sources explicitly select official CPU PyTorch and torchaudio wheels. The hardware permission gate also covers network/streaming board IDs, not just positive physical board IDs. These packaging and access checks do not change scientific evaluation design. Git commits use the supplied author name with an explicitly empty email, so no contact information is invented.
+
+Trace rendering now uses source timestamps rather than sample-array position. Timing gaps are drawn as gaps, seeks reset history, and state-only changes do not append duplicate samples. Canvas FPS is measured locally, with the target cadence separately labeled. Nonfinite config and metadata values are rejected before starting a stream.

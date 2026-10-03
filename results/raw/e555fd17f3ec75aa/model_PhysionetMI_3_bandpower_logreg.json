@@ -1,0 +1,79 @@
+{
+  "channels": [
+    "C3",
+    "Cz",
+    "C4"
+  ],
+  "fs": 160.0,
+  "n_times": 480,
+  "classes": [
+    "left_hand",
+    "right_hand"
+  ],
+  "seed": 42,
+  "dataset": "PhysionetMI",
+  "subjects": [
+    3
+  ],
+  "preprocessing": {
+    "low": 8.0,
+    "high": 30.0,
+    "order": 4,
+    "notch": null,
+    "reference": "none",
+    "detrend": true
+  },
+  "preprocessing_id": "trial_zero_phase_v1",
+  "git_commit": "9456c46fcbb835564f2f1c7c8604e6c522f92df0",
+  "training_run": "e555fd17f3ec75aa",
+  "training_trial_ids": [
+    "PhysionetMI:3:4:672",
+    "PhysionetMI:3:4:2000",
+    "PhysionetMI:3:4:3328",
+    "PhysionetMI:3:4:4656",
+    "PhysionetMI:3:4:5984",
+    "PhysionetMI:3:4:7312",
+    "PhysionetMI:3:4:8640",
+    "PhysionetMI:3:4:9968",
+    "PhysionetMI:3:4:11296",
+    "PhysionetMI:3:4:12624",
+    "PhysionetMI:3:4:13952",
+    "PhysionetMI:3:4:15280",
+    "PhysionetMI:3:4:16608",
+    "PhysionetMI:3:4:17936",
+    "PhysionetMI:3:4:19264",
+    "PhysionetMI:3:8:672",
+    "PhysionetMI:3:8:2000",
+    "PhysionetMI:3:8:3328",
+    "PhysionetMI:3:8:4656",
+    "PhysionetMI:3:8:5984",
+    "PhysionetMI:3:8:7312",
+    "PhysionetMI:3:8:8640",
+    "PhysionetMI:3:8:9968",
+    "PhysionetMI:3:8:11296",
+    "PhysionetMI:3:8:12624",
+    "PhysionetMI:3:8:13952",
+    "PhysionetMI:3:8:15280",
+    "PhysionetMI:3:8:16608",
+    "PhysionetMI:3:8:17936",
+    "PhysionetMI:3:8:19264"
+  ],
+  "decoder": "bandpower_logreg",
+  "architecture": {
+    "features": "log channel variance",
+    "components": 0,
+    "classifier": "LogisticRegression"
+  },
+  "training_seconds": 0.0008487919985782355,
+  "version": "0.1.0",
+  "weights": "weights.npz",
+  "sha256": "d08556aff83232846b29a0649387f8785a70998bb81abdf7442f0400ca8de98a",
+  "evaluation_summary": {
+    "accuracy": 0.6666666666666666,
+    "balanced_accuracy": 0.6875,
+    "roc_auc": 0.6964285714285714,
+    "f1": 0.7368421052631579,
+    "brier": 0.24214433324558873,
+    "n_test": 15
+  }
+}

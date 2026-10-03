@@ -931,3 +931,13 @@ footer b {
     color: #7389a2;
     font-size: 9px;
 }
+.signal-renderer {
+    position: relative;
+}
+.renderer-health {
+    position: absolute;
+    right: 22px;
+    top: 5px;
+    font: 8px monospace;
+    color: #8199ad;
+}

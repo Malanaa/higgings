@@ -14,6 +14,8 @@ from neurostreamlab.streaming.decision import DecisionLayer
 def test_metadata_validation(metadata):
     assert metadata.n_channels == 3
     with pytest.raises(ValidationError):
+        SourceMetadata(**{**metadata.model_dump(), "sampling_frequency": float("inf")})
+    with pytest.raises(ValidationError):
         SourceMetadata(**{**metadata.model_dump(), "sampling_frequency": 0})
     with pytest.raises(ValidationError):
         SourceMetadata(**{**metadata.model_dump(), "channel_types": []})
@@ -126,6 +128,7 @@ def test_brainflow_real_synthetic_lifecycle():
         source.close()
 
 
-def test_hardware_requires_explicit_permission():
+@pytest.mark.parametrize("board_id", [-2, 0, 1])
+def test_hardware_requires_explicit_permission(board_id):
     with pytest.raises(ValueError, match="allow_hardware"):
-        BrainFlowSource(0)
+        BrainFlowSource(board_id)

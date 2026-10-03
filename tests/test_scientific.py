@@ -21,6 +21,8 @@ from neurostreamlab.sources.base import SignalChunk
 
 
 def test_configuration():
+    with pytest.raises(ValidationError):
+        PerturbationConfig(name="gaussian_noise", intensity=float("inf"))
     config = load_config("configs/benchmarks/smoke.yaml")
     assert config.datasets["PhysionetMI"] == [1]
     with pytest.raises(ValidationError):

@@ -13,7 +13,7 @@ class BrainFlowSource:
     def __init__(
         self, board_id: int = -1, parameters: dict | None = None, *, allow_hardware: bool = False
     ):
-        if board_id >= 0 and not allow_hardware:
+        if board_id not in (-1, -3) and not allow_hardware:
             raise ValueError("physical boards require explicit allow_hardware=True")
         params = BrainFlowInputParams()
         for key, value in (parameters or {}).items():

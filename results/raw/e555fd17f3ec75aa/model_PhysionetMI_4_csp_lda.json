@@ -1,0 +1,79 @@
+{
+  "channels": [
+    "C3",
+    "Cz",
+    "C4"
+  ],
+  "fs": 160.0,
+  "n_times": 480,
+  "classes": [
+    "left_hand",
+    "right_hand"
+  ],
+  "seed": 42,
+  "dataset": "PhysionetMI",
+  "subjects": [
+    4
+  ],
+  "preprocessing": {
+    "low": 8.0,
+    "high": 30.0,
+    "order": 4,
+    "notch": null,
+    "reference": "none",
+    "detrend": true
+  },
+  "preprocessing_id": "trial_zero_phase_v1",
+  "git_commit": "9456c46fcbb835564f2f1c7c8604e6c522f92df0",
+  "training_run": "e555fd17f3ec75aa",
+  "training_trial_ids": [
+    "PhysionetMI:4:4:656",
+    "PhysionetMI:4:4:1968",
+    "PhysionetMI:4:4:3280",
+    "PhysionetMI:4:4:4592",
+    "PhysionetMI:4:4:5904",
+    "PhysionetMI:4:4:7216",
+    "PhysionetMI:4:4:8528",
+    "PhysionetMI:4:4:9840",
+    "PhysionetMI:4:4:11152",
+    "PhysionetMI:4:4:12464",
+    "PhysionetMI:4:4:13776",
+    "PhysionetMI:4:4:15088",
+    "PhysionetMI:4:4:16400",
+    "PhysionetMI:4:4:17712",
+    "PhysionetMI:4:4:19024",
+    "PhysionetMI:4:8:656",
+    "PhysionetMI:4:8:1968",
+    "PhysionetMI:4:8:3280",
+    "PhysionetMI:4:8:4592",
+    "PhysionetMI:4:8:5904",
+    "PhysionetMI:4:8:7216",
+    "PhysionetMI:4:8:8528",
+    "PhysionetMI:4:8:9840",
+    "PhysionetMI:4:8:11152",
+    "PhysionetMI:4:8:12464",
+    "PhysionetMI:4:8:13776",
+    "PhysionetMI:4:8:15088",
+    "PhysionetMI:4:8:16400",
+    "PhysionetMI:4:8:17712",
+    "PhysionetMI:4:8:19024"
+  ],
+  "decoder": "csp_lda",
+  "architecture": {
+    "features": "log spatial variance",
+    "components": 3,
+    "classifier": "LinearDiscriminantAnalysis"
+  },
+  "training_seconds": 0.003438832995016128,
+  "version": "0.1.0",
+  "weights": "weights.npz",
+  "sha256": "0f5f827bf96d70ae7e0dfe9470f6610ca4c3ef72bad7f2c657ddf44a061522e4",
+  "evaluation_summary": {
+    "accuracy": 0.8,
+    "balanced_accuracy": 0.8125,
+    "roc_auc": 0.875,
+    "f1": 0.8235294117647058,
+    "brier": 0.17486278740719072,
+    "n_test": 15
+  }
+}

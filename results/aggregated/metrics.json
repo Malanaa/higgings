@@ -10,9 +10,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 4.170833333333333e-05
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 4.298611111111111e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -25,9 +25,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 0.008773435185185184
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 0.008954673611111111
   },
   {
     "dataset": "BNCI2014_001",
@@ -40,9 +40,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 4.3953703703703704e-05
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 4.326851851851852e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -55,9 +55,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 4.0287037037037034e-05
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 4.2613425925925924e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -70,9 +70,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 0.00866231712962963
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 0.008988710648148148
   },
   {
     "dataset": "BNCI2014_001",
@@ -85,9 +85,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 3.952083333333333e-05
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 4.175231481481481e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -100,9 +100,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 0.008818101851851853
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 0.00888474074074074
   },
   {
     "dataset": "BNCI2014_001",
@@ -115,9 +115,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 4.25e-05
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 4.2724537037037046e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -130,9 +130,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 0.008851300925925926
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 0.009006925925925925
   },
   {
     "dataset": "BNCI2014_001",
@@ -145,9 +145,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 4.483333333333333e-05
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 4.3756944444444443e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -160,9 +160,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 0.008867180555555557
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 0.011977810185185183
   },
   {
     "dataset": "BNCI2014_001",
@@ -175,9 +175,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 4.159953703703704e-05
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 4.857175925925927e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -190,9 +190,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 0.00884519212962963
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 0.008863418981481483
   },
   {
     "dataset": "BNCI2014_001",
@@ -205,9 +205,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 4.290740740740741e-05
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 4.2872685185185186e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -220,9 +220,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 0.008606974537037036
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 0.010055564814814816
   },
   {
     "dataset": "BNCI2014_001",
@@ -235,9 +235,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 4.136342592592592e-05
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 4.5256944444444446e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -250,9 +250,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0085,
-    "latency_p95_ms": 0.00916905,
-    "adaptation_mean_ms": 0.008629039351851851
+    "latency_median_ms": 0.008708,
+    "latency_p95_ms": 0.00937915,
+    "adaptation_mean_ms": 0.009907212962962963
   },
   {
     "dataset": "BNCI2014_001",
@@ -265,9 +265,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 4.136111111111112e-05
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 6.072222222222223e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -280,9 +280,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 0.008833157407407408
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 0.01005766898148148
   },
   {
     "dataset": "BNCI2014_001",
@@ -295,9 +295,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 4.0935185185185187e-05
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 5.09050925925926e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -310,9 +310,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 4.452546296296296e-05
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 4.6652777777777784e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -325,9 +325,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 0.00898276851851852
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 0.009231689814814814
   },
   {
     "dataset": "BNCI2014_001",
@@ -340,9 +340,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 4.210185185185185e-05
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 4.431481481481482e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -355,9 +355,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 0.008762546296296296
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 0.009207372685185185
   },
   {
     "dataset": "BNCI2014_001",
@@ -370,9 +370,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 4.444212962962963e-05
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 4.406944444444445e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -385,9 +385,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 0.00959896527777778
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 0.009120877314814814
   },
   {
     "dataset": "BNCI2014_001",
@@ -400,9 +400,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 4.0525462962962965e-05
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 5.044212962962962e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -415,9 +415,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 0.008830988425925926
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 0.009143525462962961
   },
   {
     "dataset": "BNCI2014_001",
@@ -430,9 +430,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 4.243055555555556e-05
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 5.435416666666666e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -445,9 +445,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 0.00898600462962963
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 0.010221270833333332
   },
   {
     "dataset": "BNCI2014_001",
@@ -460,9 +460,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 4.002083333333334e-05
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 4.487731481481482e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -475,9 +475,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 0.009005210648148148
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 0.009413578703703705
   },
   {
     "dataset": "BNCI2014_001",
@@ -490,9 +490,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 4.266898148148148e-05
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 4.805092592592592e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -505,9 +505,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.0107085,
-    "latency_p95_ms": 0.01108715,
-    "adaptation_mean_ms": 0.008677282407407408
+    "latency_median_ms": 0.0113955,
+    "latency_p95_ms": 0.012826449999999998,
+    "adaptation_mean_ms": 0.00928870138888889
   },
   {
     "dataset": "BNCI2014_001",
@@ -520,9 +520,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 5.071990740740741e-05
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 7.041203703703703e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -535,9 +535,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 0.011514953703703703
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 0.01262875
   },
   {
     "dataset": "BNCI2014_001",
@@ -550,9 +550,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 5.0506944444444445e-05
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 5.880787037037036e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -565,9 +565,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 4.920601851851852e-05
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 5.9134259259259264e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -580,9 +580,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 0.011355499999999998
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 0.012369777777777776
   },
   {
     "dataset": "BNCI2014_001",
@@ -595,9 +595,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 4.628703703703704e-05
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 6.257175925925926e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -610,9 +610,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 0.011207789351851849
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 0.012820027777777776
   },
   {
     "dataset": "BNCI2014_001",
@@ -625,9 +625,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 5.130092592592592e-05
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 5.918518518518518e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -640,9 +640,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 0.011860907407407405
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 0.012331516203703702
   },
   {
     "dataset": "BNCI2014_001",
@@ -655,9 +655,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 4.8e-05
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 5.140972222222222e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -670,9 +670,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 0.011155215277777776
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 0.011809780092592592
   },
   {
     "dataset": "BNCI2014_001",
@@ -685,9 +685,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 4.6356481481481476e-05
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 9.066203703703705e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -700,9 +700,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 0.01124978472222222
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 0.013379631944444442
   },
   {
     "dataset": "BNCI2014_001",
@@ -715,9 +715,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 4.640740740740741e-05
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 7.011805555555555e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -730,9 +730,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 0.011778939814814813
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 0.013352115740740739
   },
   {
     "dataset": "BNCI2014_001",
@@ -745,9 +745,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 4.85162037037037e-05
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 6.038194444444445e-05
   },
   {
     "dataset": "BNCI2014_001",
@@ -760,9 +760,9 @@
     "n_subjects": 3,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.1787085,
-    "latency_p95_ms": 0.18872115,
-    "adaptation_mean_ms": 0.01113310185185185
+    "latency_median_ms": 0.18345850000000002,
+    "latency_p95_ms": 0.1963065499999999,
+    "adaptation_mean_ms": 0.012937143518518518
   },
   {
     "dataset": "PhysionetMI",
@@ -775,9 +775,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 7.510666666666666e-05
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 7.335999999999999e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -790,9 +790,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 0.00885616
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 0.008735
   },
   {
     "dataset": "PhysionetMI",
@@ -805,9 +805,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 0.00010272
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 7.710666666666666e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -820,9 +820,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 7.276000000000001e-05
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 7.554666666666668e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -835,9 +835,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 0.008944493333333333
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 0.008959453333333334
   },
   {
     "dataset": "PhysionetMI",
@@ -850,9 +850,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 7.945333333333332e-05
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 0.0001227733333333333
   },
   {
     "dataset": "PhysionetMI",
@@ -865,9 +865,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 0.009242213333333332
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 0.009021066666666666
   },
   {
     "dataset": "PhysionetMI",
@@ -880,9 +880,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 8.221333333333333e-05
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 7.338666666666666e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -895,9 +895,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 0.008938386666666668
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 0.010445533333333335
   },
   {
     "dataset": "PhysionetMI",
@@ -910,9 +910,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 7.282666666666668e-05
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 6.727999999999999e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -925,9 +925,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 0.012073346666666665
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 0.008887733333333332
   },
   {
     "dataset": "PhysionetMI",
@@ -940,9 +940,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 9.275999999999997e-05
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 7.609333333333333e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -955,9 +955,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 0.010467279999999999
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 0.00921386666666667
   },
   {
     "dataset": "PhysionetMI",
@@ -970,9 +970,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 7.668e-05
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 9.108e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -985,9 +985,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 0.009716679999999998
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 0.008866173333333335
   },
   {
     "dataset": "PhysionetMI",
@@ -1000,9 +1000,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 7.717333333333334e-05
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 0.00021064000000000006
   },
   {
     "dataset": "PhysionetMI",
@@ -1015,9 +1015,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.010417,
-    "latency_p95_ms": 0.01100205,
-    "adaptation_mean_ms": 0.009337226666666667
+    "latency_median_ms": 0.008125,
+    "latency_p95_ms": 0.008674399999999999,
+    "adaptation_mean_ms": 0.009393866666666667
   },
   {
     "dataset": "PhysionetMI",
@@ -1030,9 +1030,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 6.990666666666667e-05
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 6.224e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1045,9 +1045,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 0.010912786666666667
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 0.00883168
   },
   {
     "dataset": "PhysionetMI",
@@ -1060,9 +1060,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 7.335999999999999e-05
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 6.666666666666667e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1075,9 +1075,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 6.450666666666668e-05
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 6.218666666666667e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1090,9 +1090,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 0.008807253333333334
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 0.008665493333333333
   },
   {
     "dataset": "PhysionetMI",
@@ -1105,9 +1105,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 6.946666666666667e-05
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 7.106666666666667e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1120,9 +1120,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 0.008521173333333333
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 0.008874506666666667
   },
   {
     "dataset": "PhysionetMI",
@@ -1135,9 +1135,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 6.450666666666666e-05
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 7.052000000000001e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1150,9 +1150,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 0.009672840000000002
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 0.009363466666666667
   },
   {
     "dataset": "PhysionetMI",
@@ -1165,9 +1165,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 6.218666666666667e-05
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 6.284000000000001e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1180,9 +1180,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 0.00834996
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 0.008582773333333332
   },
   {
     "dataset": "PhysionetMI",
@@ -1195,9 +1195,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 7.496e-05
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 7.612000000000001e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1210,9 +1210,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 0.008536106666666666
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 0.00917608
   },
   {
     "dataset": "PhysionetMI",
@@ -1225,9 +1225,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 6.218666666666669e-05
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 6.938666666666666e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1240,9 +1240,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 0.008152266666666666
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 0.0086288
   },
   {
     "dataset": "PhysionetMI",
@@ -1255,9 +1255,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 6.112e-05
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 0.00020276000000000002
   },
   {
     "dataset": "PhysionetMI",
@@ -1270,9 +1270,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.009541,
-    "latency_p95_ms": 0.010125,
-    "adaptation_mean_ms": 0.008316626666666669
+    "latency_median_ms": 0.0100625,
+    "latency_p95_ms": 0.011487199999999998,
+    "adaptation_mean_ms": 0.010657266666666668
   },
   {
     "dataset": "PhysionetMI",
@@ -1285,9 +1285,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 8.388e-05
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 8.341333333333333e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1300,9 +1300,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 0.01082892
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 0.011028293333333331
   },
   {
     "dataset": "PhysionetMI",
@@ -1315,9 +1315,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 7.605333333333332e-05
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 8.334666666666667e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1330,9 +1330,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 7.665333333333335e-05
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 7.550666666666667e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1345,9 +1345,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 0.0112928
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 0.012114506666666667
   },
   {
     "dataset": "PhysionetMI",
@@ -1360,9 +1360,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 8.001333333333333e-05
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 7.337333333333332e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1375,9 +1375,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 0.013322186666666666
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 0.013381573333333336
   },
   {
     "dataset": "PhysionetMI",
@@ -1390,9 +1390,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 0.00010046666666666668
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 8.16e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1405,9 +1405,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 0.013339466666666666
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 0.011393946666666665
   },
   {
     "dataset": "PhysionetMI",
@@ -1420,9 +1420,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 7.952e-05
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 8.050666666666666e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1435,9 +1435,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 0.010944426666666666
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 0.012322213333333333
   },
   {
     "dataset": "PhysionetMI",
@@ -1450,9 +1450,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 7.672000000000001e-05
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 8.554666666666665e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1465,9 +1465,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 0.011179493333333332
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 0.013287146666666666
   },
   {
     "dataset": "PhysionetMI",
@@ -1480,9 +1480,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 7.441333333333333e-05
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 6.562666666666667e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1495,9 +1495,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 0.010985519999999999
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 0.01191564
   },
   {
     "dataset": "PhysionetMI",
@@ -1510,9 +1510,9 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 6.889333333333334e-05
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 8.395999999999999e-05
   },
   {
     "dataset": "PhysionetMI",
@@ -1525,8 +1525,8 @@
     "n_subjects": 5,
     "bootstrap_samples": 2000,
     "seed": 42,
-    "latency_median_ms": 0.156709,
-    "latency_p95_ms": 0.17018155000000001,
-    "adaptation_mean_ms": 0.010852773333333333
+    "latency_median_ms": 0.1583545,
+    "latency_p95_ms": 0.18802144999999992,
+    "adaptation_mean_ms": 0.011613906666666668
   }
 ]

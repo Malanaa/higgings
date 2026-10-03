@@ -35,3 +35,13 @@ testpaths = ["tests"]
 asyncio_mode = "auto"
 [tool.hatch.build.targets.wheel]
 packages = ["src/neurostreamlab"]
+
+# Linux defaults to CPU wheels rather than large CUDA runtime dependencies.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+torchaudio = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

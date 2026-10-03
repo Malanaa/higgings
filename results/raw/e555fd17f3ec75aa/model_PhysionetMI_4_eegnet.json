@@ -1,0 +1,191 @@
+{
+  "channels": [
+    "C3",
+    "Cz",
+    "C4"
+  ],
+  "fs": 160.0,
+  "n_times": 480,
+  "classes": [
+    "left_hand",
+    "right_hand"
+  ],
+  "seed": 42,
+  "dataset": "PhysionetMI",
+  "subjects": [
+    4
+  ],
+  "preprocessing": {
+    "low": 8.0,
+    "high": 30.0,
+    "order": 4,
+    "notch": null,
+    "reference": "none",
+    "detrend": true
+  },
+  "preprocessing_id": "trial_zero_phase_v1",
+  "git_commit": "9456c46fcbb835564f2f1c7c8604e6c522f92df0",
+  "training_run": "e555fd17f3ec75aa",
+  "training_trial_ids": [
+    "PhysionetMI:4:4:656",
+    "PhysionetMI:4:4:1968",
+    "PhysionetMI:4:4:3280",
+    "PhysionetMI:4:4:4592",
+    "PhysionetMI:4:4:5904",
+    "PhysionetMI:4:4:7216",
+    "PhysionetMI:4:4:8528",
+    "PhysionetMI:4:4:9840",
+    "PhysionetMI:4:4:11152",
+    "PhysionetMI:4:4:12464",
+    "PhysionetMI:4:4:13776",
+    "PhysionetMI:4:4:15088",
+    "PhysionetMI:4:4:16400",
+    "PhysionetMI:4:4:17712",
+    "PhysionetMI:4:4:19024",
+    "PhysionetMI:4:8:656",
+    "PhysionetMI:4:8:1968",
+    "PhysionetMI:4:8:3280",
+    "PhysionetMI:4:8:4592",
+    "PhysionetMI:4:8:5904",
+    "PhysionetMI:4:8:7216",
+    "PhysionetMI:4:8:8528",
+    "PhysionetMI:4:8:9840",
+    "PhysionetMI:4:8:11152",
+    "PhysionetMI:4:8:12464",
+    "PhysionetMI:4:8:13776",
+    "PhysionetMI:4:8:15088",
+    "PhysionetMI:4:8:16400",
+    "PhysionetMI:4:8:17712",
+    "PhysionetMI:4:8:19024"
+  ],
+  "decoder": "eegnet",
+  "epochs": 30,
+  "patience": 8,
+  "architecture": {
+    "implementation": "braindecode.models.EEGNet",
+    "F1": 8,
+    "D": 2,
+    "drop_prob": 0.25,
+    "device": "cpu",
+    "threads": 1
+  },
+  "selected_epoch": 6,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.703636884689331,
+      "validation_loss": 0.6928278803825378
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6925149261951447,
+      "validation_loss": 0.6927980780601501
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6752755045890808,
+      "validation_loss": 0.6928088665008545
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6589955389499664,
+      "validation_loss": 0.6928096413612366
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6635998487472534,
+      "validation_loss": 0.6927720904350281
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6482800543308258,
+      "validation_loss": 0.6927468776702881
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6337703764438629,
+      "validation_loss": 0.6927494406700134
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.6303565204143524,
+      "validation_loss": 0.6928094029426575
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.6226286590099335,
+      "validation_loss": 0.6928653120994568
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.6307244896888733,
+      "validation_loss": 0.6929571032524109
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.609749972820282,
+      "validation_loss": 0.6929923892021179
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.5961799919605255,
+      "validation_loss": 0.6929932236671448
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.6214973032474518,
+      "validation_loss": 0.6929882168769836
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.6077068448066711,
+      "validation_loss": 0.6929579377174377
+    }
+  ],
+  "validation_indices": [
+    16,
+    13,
+    29,
+    7,
+    5,
+    23
+  ],
+  "inner_training_indices": [
+    15,
+    24,
+    21,
+    2,
+    18,
+    14,
+    22,
+    6,
+    10,
+    27,
+    28,
+    26,
+    4,
+    8,
+    0,
+    25,
+    12,
+    1,
+    17,
+    9,
+    19,
+    11,
+    3,
+    20
+  ],
+  "training_seconds": 0.20632233397918753,
+  "version": "0.1.0",
+  "weights": "weights.safetensors",
+  "sha256": "9429eeaf25ffd1c32422c4d7309ed9fd5441fef4224edc8e143b178fbe7dcec3",
+  "evaluation_summary": {
+    "accuracy": 0.4666666666666667,
+    "balanced_accuracy": 0.5,
+    "roc_auc": 0.4107142857142857,
+    "f1": 0.6363636363636364,
+    "brier": 0.2506140470504761,
+    "n_test": 15
+  }
+}

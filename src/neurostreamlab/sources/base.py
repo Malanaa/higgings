@@ -2,10 +2,11 @@ from dataclasses import dataclass, field
 from typing import Literal, Protocol
 
 import numpy as np
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
 class SourceMetadata(BaseModel):
+    model_config = ConfigDict(allow_inf_nan=False)
     identifier: str
     name: str
     source_type: Literal["SYNTHETIC", "RECORDED EEG REPLAY", "LIVE HARDWARE"]
