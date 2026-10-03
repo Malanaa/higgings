@@ -1,0 +1,158 @@
+{
+  "channels": [
+    "C3",
+    "Cz",
+    "C4"
+  ],
+  "fs": 160.0,
+  "n_times": 480,
+  "classes": [
+    "left_hand",
+    "right_hand"
+  ],
+  "seed": 42,
+  "dataset": "PhysionetMI",
+  "subjects": [
+    5
+  ],
+  "preprocessing": {
+    "low": 8.0,
+    "high": 30.0,
+    "order": 4,
+    "notch": null,
+    "reference": "none",
+    "detrend": true
+  },
+  "preprocessing_id": "trial_zero_phase_v1",
+  "git_commit": "uncommitted",
+  "training_run": "55a603085d09a22c",
+  "training_trial_ids": [
+    "PhysionetMI:5:4:656",
+    "PhysionetMI:5:4:1968",
+    "PhysionetMI:5:4:3280",
+    "PhysionetMI:5:4:4592",
+    "PhysionetMI:5:4:5904",
+    "PhysionetMI:5:4:7216",
+    "PhysionetMI:5:4:8528",
+    "PhysionetMI:5:4:9840",
+    "PhysionetMI:5:4:11152",
+    "PhysionetMI:5:4:12464",
+    "PhysionetMI:5:4:13776",
+    "PhysionetMI:5:4:15088",
+    "PhysionetMI:5:4:16400",
+    "PhysionetMI:5:4:17712",
+    "PhysionetMI:5:4:19024",
+    "PhysionetMI:5:8:656",
+    "PhysionetMI:5:8:1968",
+    "PhysionetMI:5:8:3280",
+    "PhysionetMI:5:8:4592",
+    "PhysionetMI:5:8:5904",
+    "PhysionetMI:5:8:7216",
+    "PhysionetMI:5:8:8528",
+    "PhysionetMI:5:8:9840",
+    "PhysionetMI:5:8:11152",
+    "PhysionetMI:5:8:12464",
+    "PhysionetMI:5:8:13776",
+    "PhysionetMI:5:8:15088",
+    "PhysionetMI:5:8:16400",
+    "PhysionetMI:5:8:17712",
+    "PhysionetMI:5:8:19024"
+  ],
+  "decoder": "eegnet",
+  "epochs": 30,
+  "patience": 8,
+  "architecture": {
+    "implementation": "braindecode.models.EEGNet",
+    "F1": 8,
+    "D": 2,
+    "drop_prob": 0.25,
+    "device": "cpu",
+    "threads": 1
+  },
+  "selected_epoch": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6995221078395844,
+      "validation_loss": 0.6926398277282715
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6751741766929626,
+      "validation_loss": 0.6927949786186218
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6171441972255707,
+      "validation_loss": 0.6929753422737122
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6481167078018188,
+      "validation_loss": 0.6931884288787842
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6371148824691772,
+      "validation_loss": 0.6933584213256836
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6008588671684265,
+      "validation_loss": 0.6935802102088928
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6152671277523041,
+      "validation_loss": 0.6938619017601013
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.6019044816493988,
+      "validation_loss": 0.6941314339637756
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.5933105647563934,
+      "validation_loss": 0.6944422125816345
+    }
+  ],
+  "validation_indices": [
+    22,
+    14,
+    12,
+    4,
+    6,
+    29
+  ],
+  "inner_training_indices": [
+    20,
+    16,
+    2,
+    26,
+    3,
+    18,
+    7,
+    19,
+    25,
+    23,
+    17,
+    28,
+    27,
+    5,
+    9,
+    11,
+    1,
+    10,
+    24,
+    13,
+    0,
+    8,
+    21,
+    15
+  ],
+  "training_seconds": 0.12772412499180064,
+  "version": "0.1.0",
+  "weights": "weights.safetensors",
+  "sha256": "ea2158fc19a963ec7bfc1bc65041e5d235e273effb71436d2f9d8d3e01530c31"
+}

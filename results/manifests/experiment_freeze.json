@@ -1,0 +1,6 @@
+{
+  "config": "configs/benchmarks/paper_v1.yaml",
+  "sha256": "3f41c78624939d0422cc271ee3c4ea136d96afde82bd898468873bb53f84b921",
+  "timestamp": "2026-10-02T23:43:21.512830+00:00",
+  "reason": "Laptop-sized exploratory systems evaluation. Cohort selected before final results. Smoke used subject 1."
+}

@@ -1,0 +1,71 @@
+{
+  "channels": [
+    "C3",
+    "Cz",
+    "C4"
+  ],
+  "fs": 160.0,
+  "n_times": 480,
+  "classes": [
+    "left_hand",
+    "right_hand"
+  ],
+  "seed": 42,
+  "dataset": "PhysionetMI",
+  "subjects": [
+    3
+  ],
+  "preprocessing": {
+    "low": 8.0,
+    "high": 30.0,
+    "order": 4,
+    "notch": null,
+    "reference": "none",
+    "detrend": true
+  },
+  "preprocessing_id": "trial_zero_phase_v1",
+  "git_commit": "uncommitted",
+  "training_run": "55a603085d09a22c",
+  "training_trial_ids": [
+    "PhysionetMI:3:4:672",
+    "PhysionetMI:3:4:2000",
+    "PhysionetMI:3:4:3328",
+    "PhysionetMI:3:4:4656",
+    "PhysionetMI:3:4:5984",
+    "PhysionetMI:3:4:7312",
+    "PhysionetMI:3:4:8640",
+    "PhysionetMI:3:4:9968",
+    "PhysionetMI:3:4:11296",
+    "PhysionetMI:3:4:12624",
+    "PhysionetMI:3:4:13952",
+    "PhysionetMI:3:4:15280",
+    "PhysionetMI:3:4:16608",
+    "PhysionetMI:3:4:17936",
+    "PhysionetMI:3:4:19264",
+    "PhysionetMI:3:8:672",
+    "PhysionetMI:3:8:2000",
+    "PhysionetMI:3:8:3328",
+    "PhysionetMI:3:8:4656",
+    "PhysionetMI:3:8:5984",
+    "PhysionetMI:3:8:7312",
+    "PhysionetMI:3:8:8640",
+    "PhysionetMI:3:8:9968",
+    "PhysionetMI:3:8:11296",
+    "PhysionetMI:3:8:12624",
+    "PhysionetMI:3:8:13952",
+    "PhysionetMI:3:8:15280",
+    "PhysionetMI:3:8:16608",
+    "PhysionetMI:3:8:17936",
+    "PhysionetMI:3:8:19264"
+  ],
+  "decoder": "csp_lda",
+  "architecture": {
+    "features": "log spatial variance",
+    "components": 3,
+    "classifier": "LinearDiscriminantAnalysis"
+  },
+  "training_seconds": 0.004563999973470345,
+  "version": "0.1.0",
+  "weights": "weights.npz",
+  "sha256": "09ac63f513eb1ac51fb9f41ae514d4a375bb10b6e519d663ac8cbd72b26bf8f7"
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use NeuroStreamLab, cite this software and the public datasets independently."
+title: "NeuroStreamLab: Hardware-Free Real-Time BCI Development and EEG Replay Robustness"
+version: 0.1.0
+date-released: 2026-10-02
+authors:
+  - family-names: Imam
+    given-names: Syed Abdullah
+    affiliation: University of North Texas
+license: MIT

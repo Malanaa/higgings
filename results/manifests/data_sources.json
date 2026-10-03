@@ -1,0 +1,97 @@
+{
+  "PhysionetMI": {
+    "source": "https://physionet.org/files/eegmmidb/1.0.0/",
+    "version": "1.0.0"
+  },
+  "BNCI2014_001": {
+    "source": "MOABB NEMAR nm000139 original sourcedata",
+    "version": "v1.0.2",
+    "notice": "data/NEMAR/nm000139/sourcedata/sourcedata_provenance.json"
+  },
+  "files": {
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S001/S001R08.edf": {
+      "sha256": "358fb5189220725141968ae285fbe9e3f36210b834ffba71d940af308e3aca68",
+      "bytes": 2596896
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S001/S001R12.edf": {
+      "sha256": "2b281c9b687b4c4176e83251d74743721f2d6ebd76656a972a3b9c44d9d88cd5",
+      "bytes": 2596896
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S001/S001R04.edf": {
+      "sha256": "3d161f88e1c00632585287d2ce584c2bc0f08862438eb255ea8723e00fac693d",
+      "bytes": 2596896
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S004/S004R04.edf": {
+      "sha256": "c9ddf0294961f0b877192a2479802b9c6c88403682a17b5ad679fd6485aa6f59",
+      "bytes": 2555616
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S004/S004R12.edf": {
+      "sha256": "c44b7be0464d86be4d460ec66432869b7b3e8dcaa2067af02d6e772abf5c11de",
+      "bytes": 2555616
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S004/S004R08.edf": {
+      "sha256": "1ab5909b183413283a7ea76e35311a68a4688558f0044b9faab3987291cbdb92",
+      "bytes": 2555616
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S003/S003R08.edf": {
+      "sha256": "0f50978bb972e693b8c758a9223a2d9fa35c7f117226391090bcc32a83ce765d",
+      "bytes": 2596896
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S003/S003R04.edf": {
+      "sha256": "7d0732eea963488a53153835524e55c2b68220b0a0c7c5be99e535a9f5367e7f",
+      "bytes": 2596896
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S003/S003R12.edf": {
+      "sha256": "bbf7137bfa7905724741e95359fa090439d4422c07bdba16c792acb09ebd6421",
+      "bytes": 2596896
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S002/S002R12.edf": {
+      "sha256": "a3d166b23375942a5ccf352924f7766f0ca9cfd1bac7951175e710d978f5239f",
+      "bytes": 2555616
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S002/S002R04.edf": {
+      "sha256": "fcd37831378c411d50c223d97ffbc00949be2271d093f1d8e56bbe7c02bd1539",
+      "bytes": 2555616
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S002/S002R08.edf": {
+      "sha256": "02d64941f6bcd1635bc7dd187a9553331b73933e9771f4e7c59249dfc5632c5a",
+      "bytes": 2555616
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S005/S005R08.edf": {
+      "sha256": "eeed6c328ee256dd2c20d1808e05819bed4ce56b8de1c57914ded00565b6b7bc",
+      "bytes": 2555616
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S005/S005R12.edf": {
+      "sha256": "dfaf07c8ecc583b07363485596258e66a75fb33169496c62918c6dd0803814ce",
+      "bytes": 2555616
+    },
+    "MNE-eegbci-data/files/eegmmidb/1.0.0/S005/S005R04.edf": {
+      "sha256": "956d0857b17b040955fee9b2384f818f85bfb02248c387d9aa7930c42934ca0c",
+      "bytes": 2555616
+    },
+    "NEMAR/nm000139/sourcedata/A02T.mat": {
+      "sha256": "5ddd5cb520b1692c3ba1363f48d98f58f0e46f3699ee50d749947950fc39db27",
+      "bytes": 43068077
+    },
+    "NEMAR/nm000139/sourcedata/A03E.mat": {
+      "sha256": "d4229267ec7624fa8bd3af5cbebac17f415f7c722de6cb676748f8cb3b717d97",
+      "bytes": 42316292
+    },
+    "NEMAR/nm000139/sourcedata/A02E.mat": {
+      "sha256": "d63c454005d3a9b41d8440629482e855afc823339bdd0b5721842a7ee9cc7b12",
+      "bytes": 44218409
+    },
+    "NEMAR/nm000139/sourcedata/A03T.mat": {
+      "sha256": "7e731ee8b681d5da6ecb11ae1d4e64b1653c7f15aad5d6b7620b25ce53141e80",
+      "bytes": 44057065
+    },
+    "NEMAR/nm000139/sourcedata/A01E.mat": {
+      "sha256": "53d415f39c3d7b0c88b894d7b08d99bcdfe855ede63831d3691af1a45607fb62",
+      "bytes": 43772146
+    },
+    "NEMAR/nm000139/sourcedata/A01T.mat": {
+      "sha256": "054f02e70cf9c4ada1517e9b9864f45407939c1062c6793516585c6f511d0325",
+      "bytes": 42806453
+    }
+  }
+}

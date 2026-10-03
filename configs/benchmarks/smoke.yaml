@@ -1,0 +1,19 @@
+version: smoke_v1
+seed: 42
+datasets:
+  PhysionetMI: [1]
+decoders: [bandpower_logreg, csp_lda, eegnet]
+channels: [C3, Cz, C4]
+preprocessing: {low: 8, high: 30, order: 4, notch: null, reference: none, detrend: true}
+tmin: 0.5
+tmax: 3.5
+eegnet_epochs: 3
+eegnet_patience: 2
+latency_calls: 20
+bootstrap_samples: 200
+conditions:
+  clean: []
+  noise_1: [{name: gaussian_noise, intensity: 1, seed: 42}]
+  amplitude_2: [{name: amplitude, intensity: 2}]
+adaptation: true
+output: results/smoke

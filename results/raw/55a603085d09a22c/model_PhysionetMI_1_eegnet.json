@@ -1,0 +1,168 @@
+{
+  "channels": [
+    "C3",
+    "Cz",
+    "C4"
+  ],
+  "fs": 160.0,
+  "n_times": 480,
+  "classes": [
+    "left_hand",
+    "right_hand"
+  ],
+  "seed": 42,
+  "dataset": "PhysionetMI",
+  "subjects": [
+    1
+  ],
+  "preprocessing": {
+    "low": 8.0,
+    "high": 30.0,
+    "order": 4,
+    "notch": null,
+    "reference": "none",
+    "detrend": true
+  },
+  "preprocessing_id": "trial_zero_phase_v1",
+  "git_commit": "uncommitted",
+  "training_run": "55a603085d09a22c",
+  "training_trial_ids": [
+    "PhysionetMI:1:4:672",
+    "PhysionetMI:1:4:2000",
+    "PhysionetMI:1:4:3328",
+    "PhysionetMI:1:4:4656",
+    "PhysionetMI:1:4:5984",
+    "PhysionetMI:1:4:7312",
+    "PhysionetMI:1:4:8640",
+    "PhysionetMI:1:4:9968",
+    "PhysionetMI:1:4:11296",
+    "PhysionetMI:1:4:12624",
+    "PhysionetMI:1:4:13952",
+    "PhysionetMI:1:4:15280",
+    "PhysionetMI:1:4:16608",
+    "PhysionetMI:1:4:17936",
+    "PhysionetMI:1:4:19264",
+    "PhysionetMI:1:8:672",
+    "PhysionetMI:1:8:2000",
+    "PhysionetMI:1:8:3328",
+    "PhysionetMI:1:8:4656",
+    "PhysionetMI:1:8:5984",
+    "PhysionetMI:1:8:7312",
+    "PhysionetMI:1:8:8640",
+    "PhysionetMI:1:8:9968",
+    "PhysionetMI:1:8:11296",
+    "PhysionetMI:1:8:12624",
+    "PhysionetMI:1:8:13952",
+    "PhysionetMI:1:8:15280",
+    "PhysionetMI:1:8:16608",
+    "PhysionetMI:1:8:17936",
+    "PhysionetMI:1:8:19264"
+  ],
+  "decoder": "eegnet",
+  "epochs": 30,
+  "patience": 8,
+  "architecture": {
+    "implementation": "braindecode.models.EEGNet",
+    "F1": 8,
+    "D": 2,
+    "drop_prob": 0.25,
+    "device": "cpu",
+    "threads": 1
+  },
+  "selected_epoch": 3,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6861114501953125,
+      "validation_loss": 0.6937670707702637
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6714427769184113,
+      "validation_loss": 0.6937435269355774
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6542986035346985,
+      "validation_loss": 0.6937128901481628
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.7071253657341003,
+      "validation_loss": 0.6937207579612732
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6429523825645447,
+      "validation_loss": 0.6937559247016907
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6296366453170776,
+      "validation_loss": 0.693842887878418
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6512646675109863,
+      "validation_loss": 0.6939457058906555
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.6484656929969788,
+      "validation_loss": 0.694052517414093
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.6346844136714935,
+      "validation_loss": 0.6941922307014465
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.6262170672416687,
+      "validation_loss": 0.6943395733833313
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.648244321346283,
+      "validation_loss": 0.6945018172264099
+    }
+  ],
+  "validation_indices": [
+    24,
+    8,
+    12,
+    3,
+    16,
+    7
+  ],
+  "inner_training_indices": [
+    26,
+    17,
+    22,
+    1,
+    6,
+    9,
+    21,
+    11,
+    19,
+    28,
+    2,
+    0,
+    5,
+    13,
+    15,
+    18,
+    25,
+    10,
+    14,
+    20,
+    27,
+    4,
+    23,
+    29
+  ],
+  "training_seconds": 0.6968463330122177,
+  "version": "0.1.0",
+  "weights": "weights.safetensors",
+  "sha256": "9960350bf1bae9f8230a7630e85f26bdc6a2380841de07b92e4e89eb9648743a"
+}

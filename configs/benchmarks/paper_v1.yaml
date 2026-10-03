@@ -1,0 +1,27 @@
+# Frozen before examining final cohort outcomes. Pilot used subject 1 only.
+version: paper_v1
+seed: 42
+datasets:
+  PhysionetMI: [1, 2, 3, 4, 5]
+  BNCI2014_001: [1, 2, 3]
+decoders: [bandpower_logreg, csp_lda, eegnet]
+channels: [C3, Cz, C4]
+preprocessing: {low: 8, high: 30, order: 4, notch: null, reference: none, detrend: true}
+tmin: 0.5
+tmax: 3.5
+eegnet_epochs: 30
+eegnet_patience: 8
+latency_calls: 100
+bootstrap_samples: 2000
+conditions:
+  clean: []
+  noise_0.5: [{name: gaussian_noise, intensity: 0.5, seed: 42}]
+  noise_1: [{name: gaussian_noise, intensity: 1, seed: 42}]
+  noise_2: [{name: gaussian_noise, intensity: 2, seed: 42}]
+  dropout_1: [{name: channel_dropout, channels: [0], intensity: 1}]
+  dropout_2: [{name: channel_dropout, channels: [0, 2], intensity: 2}]
+  amplitude_2: [{name: amplitude, intensity: 2}]
+  drift_2: [{name: baseline_drift, intensity: 2, frequency: 0.2}]
+  mixed: [{name: gaussian_noise, intensity: 1, seed: 42}, {name: amplitude, intensity: 2}]
+adaptation: true
+output: results
